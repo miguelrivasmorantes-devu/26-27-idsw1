@@ -10,32 +10,6 @@
 
 ![Modelo del Dominio](../modelosUML/sombra/modelo_dominio.png)
 
-```plantuml
-@startuml modelo_dominio
-skinparam style strictuml
-skinparam classAttributeIconSize 0
-skinparam monochrome false
-skinparam shadowing false
-hide circle
-hide empty methods
-
-class Emisor {
-    potencia
-}
-
-class Luz {
-    longitud
-}
-
-class Obstaculo {
-    capacidadReflectiva
-}
-
-Emisor --> Luz : emite
-Obstaculo --> Luz : absorbe
-@enduml
-```
-
 ---
 
 ## 2. Brevísimo glosario
