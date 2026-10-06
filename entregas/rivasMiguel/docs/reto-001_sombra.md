@@ -1,31 +1,39 @@
 # Reto 001 - Modelo del Dominio: Una Sombra
 
 - **Escenario:** 1. Una sombra
-- **Diagrama en PlantUML:** [`../modelosUML/modelo_dominio.puml`](../modelosUML/modelo_dominio.puml)
-- **Boceto original:** [`../images/image1.jpg`](../images/image1.jpg)
+- **Diagrama en PlantUML:** [`../modelosUML/sombra/modelo_dominio.puml`](../modelosUML/sombra/modelo_dominio.puml)
+- **Boceto original:** [`../images/sombra/image1.jpg`](../images/sombra/image1.jpg)
 
 ---
 
 ## 1. Diagrama del Modelo del Dominio
 
-```mermaid
-classDiagram
-    direction LR
+![Modelo del Dominio](../modelosUML/sombra/modelo_dominio.png)
 
-    class Emisor {
-        +potencia
-    }
+```plantuml
+@startuml modelo_dominio
+skinparam style strictuml
+skinparam classAttributeIconSize 0
+skinparam monochrome false
+skinparam shadowing false
+hide circle
+hide empty methods
 
-    class Luz {
-        +longitud
-    }
+class Emisor {
+    potencia
+}
 
-    class Obstaculo {
-        +capacidadReflectiva
-    }
+class Luz {
+    longitud
+}
 
-    Emisor --> Luz : emite
-    Obstaculo --> Luz : absorbe
+class Obstaculo {
+    capacidadReflectiva
+}
+
+Emisor --> Luz : emite
+Obstaculo --> Luz : absorbe
+@enduml
 ```
 
 ---
@@ -53,4 +61,3 @@ classDiagram
 
 - **La sombra como efecto y no como clase:** No se modela la "Sombra" como una entidad con atributos propios, sino como la consecuencia de la absorción de luz por parte del obstáculo.
 - **Absorber en lugar de bloquear:** Se asume que el obstáculo absorbe la luz incidente en función de su baja capacidad reflectiva (*"refleja poco, aparece sombra"*), impidiendo su paso.
-

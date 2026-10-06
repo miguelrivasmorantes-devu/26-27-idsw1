@@ -3,17 +3,19 @@ skinparam style strictuml
 skinparam classAttributeIconSize 0
 skinparam monochrome false
 skinparam shadowing false
+hide circle
+hide empty methods
 
 class Emisor {
-    + potencia
+    potencia
 }
 
 class Luz {
-    + longitud
+    longitud
 }
 
 class Obstaculo {
-    + capacidadReflectiva
+    capacidadReflectiva
 }
 
 Emisor --> Luz : emite
