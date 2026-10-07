@@ -2,8 +2,8 @@
 
 - **Escenario:** 1. Una sombra
 - **Modelo del Dominio (PlantUML):** [`../modelosUML/sombra/modelo_dominio.puml`](../modelosUML/sombra/modelo_dominio.puml)
-- **Modelo de Estados (PlantUML):** [`../modelosUML/sombra/modelo_estados.puml`](../modelosUML/sombra/modelo_estados.puml)
-- **Boceto original:** [`../images/sombra/image1.jpg`](../images/sombra/image1.jpg)
+- **Diagrama de Estados (PlantUML):** [`../modelosUML/sombra/diagrama_estados.puml`](../modelosUML/sombra/diagrama_estados.puml)
+- **Boceto original:** [`../images/sombra/modelo_dominio.jpg`](../images/sombra/modelo_dominio.jpg)
 
 ---
 
@@ -13,9 +13,9 @@
 
 ![Modelo del Dominio](../modelosUML/sombra/modelo_dominio.png)
 
-### 1.2. Modelo de Estados
+### 1.2. Diagrama de Estados
 
-![Modelo de Estados](../modelosUML/sombra/modelo_estados.png)
+![Diagrama de Estados](../modelosUML/sombra/diagrama_estado.png)
 
 ---
 

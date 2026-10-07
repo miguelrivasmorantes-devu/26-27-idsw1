@@ -19,9 +19,13 @@ class Espectador {
 class Reaccion {
 }
 
+class Momentum {
+}
+
 Persona --> Accion : hace
 Espectador --> Accion : observa
 Espectador --> Reaccion : tiene
 Accion --> Reaccion : genera
-Reaccion --> Persona : da aura
+Reaccion --> Momentum : aumenta / disminuye
+Momentum --> Persona : da / quita aura
 @enduml
