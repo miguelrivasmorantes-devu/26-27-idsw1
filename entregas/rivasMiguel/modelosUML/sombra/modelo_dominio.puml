@@ -10,14 +10,14 @@ class Emisor {
     potencia
 }
 
-class Luz {
-    longitud
+class "Haz de luz" as HazDeLuz {
+    longitudDeOnda
 }
 
-class Obstaculo {
-    capacidadReflectiva
+class Receptor {
+    capacidadDeAbsorcion
 }
 
-Emisor --> Luz : emite
-Obstaculo --> Luz : absorbe
+Emisor --> HazDeLuz : emite
+Receptor --> HazDeLuz : absorbe
 @enduml
