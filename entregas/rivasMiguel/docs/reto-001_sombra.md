@@ -1,19 +1,24 @@
 # Reto 001 - Modelo del Dominio: Una Sombra
 
 - **Escenario:** 1. Una sombra
-- **Modelo del Dominio (PlantUML):** [`../modelosUML/sombra/modelo_dominio.puml`](../modelosUML/sombra/modelo_dominio.puml)
+- **Diagrama de Clases (PlantUML):** [`../modelosUML/sombra/diagrama_clases.puml`](../modelosUML/sombra/diagrama_clases.puml)
+- **Diagrama de Objetos (PlantUML):** [`../modelosUML/sombra/diagrama_objetos.puml`](../modelosUML/sombra/diagrama_objetos.puml)
 - **Diagrama de Estados (PlantUML):** [`../modelosUML/sombra/diagrama_estados.puml`](../modelosUML/sombra/diagrama_estados.puml)
-- **Boceto original:** [`../images/sombra/modelo_dominio.jpg`](../images/sombra/modelo_dominio.jpg)
+- **Boceto original:** [`../images/sombra/diagrama_clases.jpg`](../images/sombra/diagrama_clases.jpg)
 
 ---
 
 ## 1. Diagramas
 
-### 1.1. Modelo del Dominio
+### 1.1. Diagrama de Clases
 
-![Modelo del Dominio](../modelosUML/sombra/modelo_dominio.png)
+![Diagrama de Clases](../modelosUML/sombra/diagrama_clases.png)
 
-### 1.2. Diagrama de Estados
+### 1.2. Diagrama de Objetos
+
+![Diagrama de Objetos](../modelosUML/sombra/diagrama_objetos.png)
+
+### 1.3. Diagrama de Estados
 
 ![Diagrama de Estados](../modelosUML/sombra/diagrama_estado.png)
 
