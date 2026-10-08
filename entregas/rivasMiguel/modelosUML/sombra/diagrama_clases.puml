@@ -1,4 +1,4 @@
-@startuml modelo_dominio
+@startuml diagrama_clases
 skinparam style strictuml
 skinparam classAttributeIconSize 0
 skinparam monochrome false
